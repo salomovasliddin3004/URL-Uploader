@@ -7,7 +7,11 @@ from translation import Translation
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-@Client.on_message(filters.command(["start"]) & filters.private)
+@Client.on_message(
+    filters.command(["start"]) &
+    filters.private &
+    filters.user(Config.AUTH_USERS) if Config.PRIVATE else None
+)
 async def start(bot, update):
     await update.reply_text(
         text=Translation.START_TEXT.format(update.from_user.mention),
