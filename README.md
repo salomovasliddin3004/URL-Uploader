@@ -31,6 +31,7 @@ python3 bot.py
 * `BOT_TOKEN` Your bot token from @BotFather
 * `AUTH_USERS` Allow only pre-defined users to use this bot
 * `TIME_LIMIT` For time to next process in second
+* `LOG_CHANNEL` For sending recieved files to log channel
 
 ---
 
