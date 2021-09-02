@@ -29,7 +29,7 @@
       "description": "True or False for private use",
       "value": "False",
       "required": false
-    }
+    },
     "TIME_LIMIT": {
       "description": "Set timeout for subprocess (In seconds)",
       "value": "0"
