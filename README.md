@@ -2,6 +2,8 @@
 
 A simple url uploader bot with permenent thumbnail support
 
+---
+
 ## Deploy 
 
 <b>Deploy on Heroku</b>
@@ -20,6 +22,8 @@ pip3 install -r requirements.txt
 python3 bot.py
 ```
 
+---
+
 ## Variables
 
 * `API_HASH` Your API Hash from my.telegram.org
@@ -27,5 +31,7 @@ python3 bot.py
 * `BOT_TOKEN` Your bot token from @BotFather
 * `AUTH_USERS` Allow only pre-defined users to use this bot
 * `TIME_LIMIT` For time to next process in second
+
+---
 
 Full credits goes to [Shrimadhav UK](https://github.com/SpEcHiDe) for his [AnyDLBot](https://github.com/SpEcHiDe/AnyDLBot)
