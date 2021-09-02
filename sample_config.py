@@ -10,6 +10,9 @@ class Config(object):
     APP_ID = int(os.environ.get("APP_ID"))
     API_HASH = os.environ.get("API_HASH")
 
+    # For private use 
+    PRIVATE = bool(os.environ.get("PRIVATE", False))
+
     # Array to store users who are authorized to use the bot
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", None).split())
 
