@@ -1,5 +1,7 @@
 # URL-Uploader
 
+A simple url uploader bot with permenent thumbnail support
+
 ## Deploy 
 
 <b>Deploy on Heroku</b>
