@@ -24,10 +24,9 @@ Made by @FayasNoushad
 """
     ABOUT_TEXT = """
 - **Bot :** `URL Uploader`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
+- **Creator :** [SalomovAsliddin](https://telegram.me/SalomovAsliddin)
+- **Channel :** [Asliddin Own](https://telegram.me/SalomovAsliddin_2oo4)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/FayasNoushad/URL-Uploader)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
